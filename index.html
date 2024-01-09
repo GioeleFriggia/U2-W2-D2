@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Viaggiare</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <img
+          src="https://s3.eu-central-1.amazonaws.com/other.projects.storage/multitenacy/settings/2023-09-12-12-17-10-0650056c6d2ad4.png"
+          alt="Logo"
+          height="40"
+          class="d-inline-block align-text-top"
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Saldi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Welcome Summer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Last Minute</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Recensioni</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-danger" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container text-center">
+      <section class="bg-light rounded p-4 mx-4col-md-6 mt-4">
+        <h3>Viaggiare nel mondo</h3>
+        <hr class="my-4" />
+        <p class="lead">Il tuo viaggio dei sogni inizia con noi!</p>
+        <p class="fst-italic">Scopri le destinazioni più calde del momento.</p>
+        <button type="button" class="btn btn-primary btn-sm">
+          Scopri di più
+        </button>
+      </section>
+
+      <!-- Sezione "Saldi" -->
+      <section class="my-4">
+        <h2>Saldi</h2>
+        <div
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 card-container mx-auto"
+        >
+          <!-- Prima card - Sicilia -->
+          <div class="col">
+            <div class="card" style="border: 2px solid #87ceeb">
+              <img
+                src="https://www.sardegnaturismo.it/sites/default/files/galleria/goloritze_cooir_rsz.jpg"
+                class="card-img-top"
+                alt="FOTO SICILIA"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Sicilia</h5>
+                <p class="card-text">
+                  Tour della Sicilia occidentale in 7 giorni
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  style="background-color: #87ceeb; color: #000"
+                  >Prenota</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Seconda card - Sardegna -->
+          <div class="col">
+            <div class="card" style="border: 2px solid #87ceeb">
+              <img
+                src="https://www.sardegnaturismo.it/sites/default/files/galleria/goloritze_cooir_rsz.jpg"
+                class="card-img-top"
+                alt="FOTO SARDEGNA"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Sardegna</h5>
+                <p class="card-text">Tour del Sud Sardegna in 9 giorni</p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  style="background-color: #87ceeb; color: #000"
+                  >Prenota</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Terza card - Ibiza -->
+          <div class="col d-md-none d-lg-block">
+            <div class="card" style="border: 2px solid #87ceeb">
+              <img
+                src="https://www.sardegnaturismo.it/sites/default/files/galleria/goloritze_cooir_rsz.jpg"
+                class="card-img-top"
+                alt="FOTO IBIZA"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Ibiza</h5>
+                <p class="card-text">
+                  Tour di 7 giorni alla scoperta delle spiagge meravigliose
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  style="background-color: #87ceeb; color: #000"
+                  >Prenota</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Quarta card - Marocco -->
+          <div class="col">
+            <div class="card" style="border: 2px solid #87ceeb">
+              <img
+                src="https://www.sardegnaturismo.it/sites/default/files/galleria/goloritze_cooir_rsz.jpg"
+                class="card-img-top"
+                alt="FOTO MAROCCO"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Marocco</h5>
+                <p class="card-text">
+                  Tour di 7 giorni alla scoperta delle spiagge meravigliose
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  style="background-color: #87ceeb; color: #000"
+                  >Prenota</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sezione "Welcome Summer" -->
+      <section class="my-4">
+        <h2>Welcome Summer</h2>
+        <div
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 card-container mx-auto"
+        >
+          <!-- Prima card -->
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://www.lasciativiaggiare.it/blog/wp-content/uploads/2024/01/Marocco-Tour-Accompagnato.webp"
+                class="card-img-top border p-2"
+                alt="Destination 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Destination 1</h5>
+                <p class="card-text">Description for Destination 1.</p>
+                <a href="#" class="btn btn-primary">Explore</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Seconda card -->
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://www.lasciativiaggiare.it/blog/wp-content/uploads/2024/01/Marocco-Tour-Accompagnato.webp"
+                class="card-img-top border p-2"
+                alt="Destination 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Destination 2</h5>
+                <p class="card-text">Description for Destination 2.</p>
+                <a href="#" class="btn btn-primary">Explore</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Terza card -->
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://www.lasciativiaggiare.it/blog/wp-content/uploads/2024/01/Marocco-Tour-Accompagnato.webp"
+                class="card-img-top border p-2"
+                alt="Destination 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Destination 3</h5>
+                <p class="card-text">Description for Destination 3.</p>
+                <a href="#" class="btn btn-primary">Explore</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quarta card -->
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://www.lasciativiaggiare.it/blog/wp-content/uploads/2024/01/Marocco-Tour-Accompagnato.webp"
+                class="card-img-top border p-2"
+                alt="Destination 4"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Destination 4</h5>
+                <p class="card-text">Description for Destination 4.</p>
+                <a href="#" class="btn btn-primary">Explore</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quinta card -->
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://www.lasciativiaggiare.it/blog/wp-content/uploads/2024/01/Marocco-Tour-Accompagnato.webp"
+                class="card-img-top border p-2"
+                alt="Destination 5"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Destination 5</h5>
+                <p class="card-text">Description for Destination 5.</p>
+                <a href="#" class="btn btn-primary">Explore</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sesta card -->
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://www.lasciativiaggiare.it/blog/wp-content/uploads/2024/01/Marocco-Tour-Accompagnato.webp"
+                class="card-img-top border p-2"
+                alt="Destination 6"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Destination 6</h5>
+                <p class="card-text">Description for Destination 6.</p>
+                <a href="#" class="btn btn-primary">Explore</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Sezione "Offerta del giorno" -->
+<section class="my-4">
+    <h2>Offerta del giorno</h2>
+    <div class="row g-4 card-container mx-auto">
+      <!-- Card Offerta del giorno -->
+      <div class="col-md-8">
+        <div class="card">
+          <img
+          src="https://www.viagginews.com/wp-content/uploads/2017/06/AdobeStock_190885355-1-1-min.jpeg"
+            class="card-img-top rounded"
+            alt="Offerta del giorno"
+            style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);"
+          />
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-light h-100">
+          <div class="card-body">
+            <h5 class="card-title display-5">Grecia</h5>
+            <p class="card-text fst-italic">15.01.2021-31.01.2021
+               </p>
+            <p class="card-text lead">15.01.2021-31.01.2021
+                Ville a partire da 500 €, non fartele sfuggire!</p>
+            <span class="badge bg-dark">Best Offer</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-3">
+      <p>&copy; 2024 Viaggiare. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-btBuHRkCSG+CpDmTImTH5tklAqOp6GJw1NU5B9j9wKHIweInh1Lz1qHbI2WY1Nc6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
